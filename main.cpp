@@ -117,7 +117,7 @@ int main(){
 		Eigen::MatrixXi F;
 		Eigen::MatrixXd C;
 		tets->scale = 0.004;
-		tets->tpmsToTetrahedron("pq1.2/10Y", levelset, V, F);
+		tets->tpmsToTetrahedron("pq1.2/10YQ", levelset, V, F);
 		C.setOnes(tets->points.rows(), 3);
 
 		Eigen::VectorXd genE(1);
